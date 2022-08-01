@@ -1,4 +1,4 @@
-BOT_TOKEN = ''
-admin_id = ''
+BOT_TOKEN = '321abc'
+admin_id = 123
 
-users = []
+users = [123]

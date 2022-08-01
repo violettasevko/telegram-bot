@@ -4,6 +4,7 @@ from aiogram.types import Message
 from main import dp, bot
 from config import users, admin_id
 
+
 @dp.message_handler(Command('sendall'))
 async def send_all(message: Message):
     if message.chat.id == admin_id:
